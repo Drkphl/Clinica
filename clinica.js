@@ -56,7 +56,6 @@ while (true) {
         let hora = prompt('hora da consulta: ');
         consultas.push({ paciente, medico, data, hora });
     } else if (opcao === '4') {
-        console.log('digite o numero da consulta a ser alterada: ');
         consultas.forEach((consultas, index) => {
             console.log(
                 `${index + 1}. ${consultas.paciente} - ${consultas.medico} - ${consultas.data} - ${consultas.hora}\n`
