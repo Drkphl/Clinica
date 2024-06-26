@@ -29,7 +29,11 @@ while (true) {
         } else {
             consultas.forEach((consultas, index) => {
                 console.log(
-                    `${index + 1}. ${consultas.paciente} - ${consultas.medico} - ${consultas.data} - ${consultas.hora}`
+                    `consulta ${index + 1}
+                nome do paciente: ${consultas.paciente}
+                nome do médico ${consultas.medico}
+                data: ${consultas.data}
+                hora: ${consultas.hora}\n`
                 );
             });
         }
@@ -37,7 +41,11 @@ while (true) {
         console.log('digite o numero da consulta a ser alterada: ');
         consultas.forEach((consultas, index) => {
             console.log(
-                `${index + 1}. ${consultas.paciente} - ${consultas.medico} - ${consultas.data} - ${consultas.hora}\n`
+                `consulta ${index + 1}
+                nome do paciente: ${consultas.paciente}
+                nome do médico ${consultas.medico}
+                data: ${consultas.data}
+                hora: ${consultas.hora}\n`
             );
         });
         let escolha = prompt('consulta a ser modificada: ');
