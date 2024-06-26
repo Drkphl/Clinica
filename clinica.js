@@ -42,8 +42,7 @@ while (true) {
         });
         let escolha = prompt('consulta a ser modificada: ');
         consultas.pop(escolha - 1);
-
-        let paciente = prompt('\nNome do paciente: ');
+        let paciente = prompt('Nome do paciente: ');
         let medico = prompt('nome do medico: ');
         let data = prompt('data: ');
         let hora = prompt('hora da consulta: ');
